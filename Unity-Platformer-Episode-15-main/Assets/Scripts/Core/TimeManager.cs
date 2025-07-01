@@ -15,7 +15,7 @@ public class TimeManager : MonoBehaviour
 
     public TMP_Text timeUI;
 
-    private float currentTime;
+    public float currentTime;
     private bool isRunning = false;
     private UIManager uiManager;
     private Animator playerAnimator;

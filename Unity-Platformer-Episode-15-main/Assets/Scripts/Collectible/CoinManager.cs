@@ -9,7 +9,7 @@ public class CoinManager : MonoBehaviour
     public TMP_Text coinText;
     public AudioClip coinSFX;
 
-    private int coinCount = 0;
+    public int coinCount = 0;
 
     void Awake()
     {
