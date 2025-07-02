@@ -15,35 +15,23 @@ public class LoadingManager : MonoBehaviour
             finishUI.SetActive(false);
         }
         OpenMainMenu();
-        //Keep this object even when we go to new scene
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        //Destroy duplicate gameobjects
         else if (instance != null && instance != this)
             Destroy(gameObject);
     }
 
     public void LoadCurrentLevel()
     {
-        //int currentLevel = PlayerPrefs.GetInt("currentLevel", 1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    public void Restart()
-    {
-        //SceneManager.LoadScene(currentLevel);
-    }
-    public static void LoadLevel1()
+    public void LoadLevel(string levelName)
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Level1");
-    }
-    public static void LoadLevel2()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene(levelName);
     }
 
     public void OpenLevelSelect()
@@ -65,14 +53,10 @@ public class LoadingManager : MonoBehaviour
             mainMenu.SetActive(true);
         }
     }
-    public void LoadMenuScene()
-    {
-        SceneManager.LoadScene("_Menu");
+    public void LoadMenuScene() => SceneManager.LoadScene("_Menu");
 
-    }
+    
 
-    public void Quit()
-    {
-        Application.Quit();
-    }
+    public void Quit() => Application.Quit();
+    
 }

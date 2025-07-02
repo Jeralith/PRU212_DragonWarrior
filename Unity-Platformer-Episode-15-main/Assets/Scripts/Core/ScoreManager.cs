@@ -23,22 +23,23 @@ public class ScoreManager : MonoBehaviour
     {
         levelScoreName = SceneManager.GetActiveScene().name + "Score";
         if (!PlayerPrefs.HasKey(levelScoreName)) PlayerPrefs.SetInt(levelScoreName, 0);
+        //"Level1Score" = 0
     }
     public void CalculateScore()
-{
-    timeScore = Mathf.FloorToInt(timeManager.currentTime * timeScoreMultiplier);
-    coinScore = coinManager.coinCount * coinScoreMultiplier;
-    healthScore = Mathf.FloorToInt(health.currentHealth * healthScoreMultiplier);
-    
-    finalScore = timeScore + coinScore + healthScore;
-
-    int savedHighScore = PlayerPrefs.GetInt(levelScoreName);
-    if (finalScore > savedHighScore)
     {
-        PlayerPrefs.SetInt(levelScoreName, finalScore);
-        PlayerPrefs.Save(); 
-    }
+        timeScore = Mathf.FloorToInt(timeManager.currentTime * timeScoreMultiplier);
+        coinScore = coinManager.coinCount * coinScoreMultiplier;
+        healthScore = Mathf.FloorToInt(health.currentHealth * healthScoreMultiplier);
 
-    highScore = Mathf.Max(savedHighScore, finalScore);
-}
+        finalScore = timeScore + coinScore + healthScore;
+
+        int savedHighScore = PlayerPrefs.GetInt(levelScoreName);
+        if (finalScore > savedHighScore)
+        {
+            PlayerPrefs.SetInt(levelScoreName, finalScore);
+            PlayerPrefs.Save();
+        }
+
+        highScore = Mathf.Max(savedHighScore, finalScore);
+    }
 }

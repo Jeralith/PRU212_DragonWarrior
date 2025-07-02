@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1692.5715
     height: 1054.8572
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 24
+  controlID: 139
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 77
+  controlID: 72
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 151
+  controlID: 140
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -685,9 +685,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 419bc00f5ca795d429c99736165e29ea, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: e4566a9a902779949ab109767dbe1ca5, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1125773961376169106, guid: 419bc00f5ca795d429c99736165e29ea, type: 2}
+  - m_Target: {fileID: -3664011081121584070, guid: e4566a9a902779949ab109767dbe1ca5, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1293,9 +1293,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 730.8295, y: 591.3097, z: -7.3574467}
+    m_Target: {x: 28.970438, y: 1.5272863, z: 0}
     speed: 2
-    m_Value: {x: 730.8295, y: 591.3097, z: -7.3574467}
+    m_Value: {x: 28.970438, y: 1.5272863, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1345,9 +1345,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 745.7447
+    m_Target: 10
     speed: 2
-    m_Value: 745.7447
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1450,7 +1450,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1523,7 +1523,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b4afffffd6afffff6eb6ffff26f7ffffd6f7ffff08fbffffe476000020770000d8770000fc770000887a0000167b0000c6330100123401003c350100b8350100
+      m_ExpandedIDs: a6dbffffb4e7ffff7af2ffff08fbffff1c760000367600006e760000c27600005c7700008a770000947c0000b07c0000827d00008c7d000032800000fc8e0000448f000078900000f4900000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1591,7 +1591,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 597.71423
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1644,7 +1644,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/UI
+    - Assets/Levels
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1654,16 +1654,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Prefabs/UI
+  - Assets/Levels
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\Bookings\DragonWarrior\PRU212_DragonWarrior\Unity-Platformer-Episode-15-main
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26810000
-    m_LastClickedID: 33062
-    m_ExpandedIDs: 00000000547f0000567f0000
+    m_SelectedIDs: e07a0000
+    m_LastClickedID: 31456
+    m_ExpandedIDs: 00000000707a0000727a0000747a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1692,7 +1692,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000547f0000567f0000
+    m_ExpandedIDs: 00000000707a0000727a0000747a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1788,4 +1788,4 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -20560
+  m_LastSelectedObjectID: 31736
