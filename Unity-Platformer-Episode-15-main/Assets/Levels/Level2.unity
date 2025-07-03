@@ -13215,9 +13215,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 668477926}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: MainMenu
+      - m_Target: {fileID: 846652867}
+        m_TargetAssemblyTypeName: LoadingManager, Assembly-CSharp
+        m_MethodName: LoadMenuScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
